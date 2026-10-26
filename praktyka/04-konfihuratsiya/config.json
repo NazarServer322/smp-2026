@@ -1,0 +1,16 @@
+{
+  "name": "rozklad-bot",
+  "version": "1.10",
+  "port": 8080,
+  "debug": false,
+  "max_users": 500,
+  "timeout_sec": 2.5,
+  "language": "uk",
+  "groups": ["316-пр", "317-пр", "318-пр"],
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "rozklad",
+    "ssl": true
+  }
+}
